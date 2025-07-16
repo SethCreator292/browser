@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Proxy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <div id="proxy-container">
+        <header id="proxy-header">
+            <form id="proxy-form">
+                <input type="text" id="proxy-input" placeholder="Search Google or type a URL">
+                <button type="submit">Go</button>
+            </form>
+        </header>
+        <main id="proxy-content">
+            <iframe id="proxy-iframe" src=""></iframe>
+        </main>
+    </div>
+
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
